@@ -89,11 +89,15 @@
   display: flex;
   justify-content: space-evenly;
   background-color:  #f2f2f2;
+  padding: 20px;
+  border-bottom: 10px solid linear-gradient(to right, #0788b5 , #1da850)
+  ;
 }
 
+
 .circle{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   background-color: #0788b5;
   border-radius: 50%;
 }
@@ -102,4 +106,6 @@
   width: 100%;
   object-fit:scale-down;
   padding: 25%;
+  filter: invert(100%);
+
 }
