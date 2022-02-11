@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+.cta{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  max-height: 30px;
+  background-image: linear-gradient(to right, #0788b5 , #1da850)
+
+}
+
+.cta-left{
+  margin: 0px 40px;;
+}
+.cta-right {
+  margin: 0px 40px;
+  background-color: white;
+  border-radius: 10%
+}
+.text {
+  color: white;
+}
+
+.cta-icon{
+  max-height: 30px;
+}
+.navbar{
+  background-color: transparent;
+}
+.logo{
+  height: 50px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+
+}

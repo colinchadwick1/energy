@@ -1,12 +1,20 @@
-import speaker from "../images"
+import speaker from "../images/speaker.png";
+import phone from "../images/phone.png"
 
 function CTA() {
     return (  
-        <>
-        <div>
-            
+        <div className="cta">
+        <div className="cta-left">
+            <img className="cta-icon" src={speaker} alt=""/>
+            <span className="text">ENERGY PRICE RISE - WHITE PAPER NOW AVAILABLE TO DOWNLOAD</span>
         </div>
-        </>
+        <div className="cta-right">
+            <a href="#">
+            <img className="cta-icon" src={phone} alt=""/>
+            <span>GET IN TOUCH</span>
+            </a>
+        </div>
+        </div>
 
     )
 }
