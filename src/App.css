@@ -56,6 +56,7 @@
 }
 .text {
   color: white;
+  
 }
 
 .cta-icon{
@@ -72,4 +73,33 @@
   display: flex;
   justify-content: space-between;
 
+}
+
+.hero{
+  display: flex;
+  flex-direction: row;
+}
+.touch{
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-evenly;
+  background-color:  #f2f2f2;
+}
+
+.circle{
+  width: 100px;
+  height: 100px;
+  background-color: #0788b5;
+  border-radius: 50%;
+}
+.icon{
+  height: 100%;
+  width: 100%;
+  object-fit:scale-down;
+  padding: 25%;
 }

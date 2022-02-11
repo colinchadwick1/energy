@@ -9,10 +9,10 @@ function CTA() {
             <span className="text">ENERGY PRICE RISE - WHITE PAPER NOW AVAILABLE TO DOWNLOAD</span>
         </div>
         <div className="cta-right">
-            <a href="#">
+            <button className="touch" href="#">
             <img className="cta-icon" src={phone} alt=""/>
             <span>GET IN TOUCH</span>
-            </a>
+            </button>
         </div>
         </div>
 
