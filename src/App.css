@@ -140,12 +140,18 @@
   height: 10px;
   width: fit-content;
   font-size: 10px;
-  letter-spacing: -0.9px;
+  letter-spacing: -0.6px;
 
  
   }
   
- 
+ .carousel{
+  display: 'block';
+   width: 700; 
+   padding: 30;
+ }
+
+
   
   
  

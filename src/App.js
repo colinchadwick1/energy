@@ -3,7 +3,6 @@ import CTA from './components/CTA';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Icons from './components/Icons';
-import Slider from './components/Slider';
 
 
 

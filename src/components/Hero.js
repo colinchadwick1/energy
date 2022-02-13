@@ -1,6 +1,11 @@
-import image1 from "../images/homepage-image-1.jpeg"
-import image2 from "../images/homepage-image-2.jpg"
-import Slider from "./Slider";
+import 'bootstrap/dist/css/bootstrap.css';
+import Carousel from 'react-bootstrap/Carousel';
+import image1 from '../images/homepage-image-1.jpeg';
+import image2 from '../images/homepage-image-2.jpeg';
+
+
+
+
 
 function Hero() {
 
@@ -16,7 +21,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis fringil
     FIND OUT MORE
 </button>
         </div>
-        </div>
+        <div className="carousel" alt="carousel">
+      <Carousel>
+        <Carousel.Item interval={5000}>
+          <img
+            className="d-block w-100 carousel-img"
+src={image1}
+            alt="Image One"
+          />
+        </Carousel.Item>
+        <Carousel.Item interval={5000}>
+          <img
+            className="d-block w-100 carousel-img"
+src={image2}
+            alt="Image Two"
+          />
+        </Carousel.Item>
+      </Carousel>
+    </div>
+</div>
       );
 }
 
