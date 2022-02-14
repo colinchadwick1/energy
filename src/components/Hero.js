@@ -12,10 +12,10 @@ function Hero() {
     return (
         <div className="hero">
         <div className="hero-info">
-<h1>WATER ENERGY TASKFORCE</h1>
+<h1 className="hero-title">WATER AND ENERGY TASKFORCE</h1>
 <p>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis fringilla urna ac pellentesque. Phasellus ullamcorper pretium sem. In hac habitasse platea dictumst. Duis porttitor odio ut eros blandit egestas. 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis fringilla urna ac pellentesque. Phasellus ullamcorper pretium sem. In hac habitasse platea dictumst. 
 </p>
 <button className="info">
     FIND OUT MORE
