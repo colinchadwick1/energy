@@ -120,13 +120,14 @@
   justify-content: center;
   align-content: flex-start;
   text-align:left;
-  margin: 0px 0px 0px 20px; ;
+  margin: 20px; ;
   font-size: 0.8rem;
+
 
 }
 .hero-title{
   font-weight: 700;
-  font-size: 2.1rem;
+  font-size: 1.7rem;
 }
 
 
@@ -154,16 +155,24 @@
   }
   
  .carousel{
-  display: 'block';
+   position: relative;
+  display: inline-block;
    width: 700; 
    padding: 30;
-   background-image: linear-gradient(to right, transparent, white);
+background-color: white; 
+
 
  }
 
+
  .carousel-img{
    max-width: 100rem;
-   filter: opacity(90%)
+   filter: opacity(90%);
+   mask-image: linear-gradient(to left, transparent 0%, black 0%, black 90%, transparent 100%);
+   
+   
+
+
  }
 
 
@@ -207,4 +216,5 @@
   font-weight:700;
   cursor: pointer;
 }
+
 

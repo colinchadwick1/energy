@@ -18,7 +18,7 @@ function CTA() {
         <a className="nav-link" href="#">HOME <span className="sr-only">(current)</span></a>
       </li>
       <li className="nav-item dropdown">
-        <a className="nav-link dropdown-toggle" href="#">ABOUT</a>
+        <a className="nav-link dropdown-toggle" href="#" >ABOUT</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#">TASKS</a>
