@@ -145,11 +145,8 @@
 }
 
 .carousel {
-  position: relative;
   display: inline-block;
-  width: 700;
-  padding: 30;
-  margin-bottom: 0px;
+  margin-bottom: -7px;
   background-color: white;
   z-index: -1;
 }

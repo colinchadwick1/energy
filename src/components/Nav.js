@@ -1,5 +1,6 @@
 import logo from "../images/logo.png"
 
+
 function CTA() {
     return (  
         <div className="nav">
