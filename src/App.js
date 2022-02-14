@@ -11,7 +11,6 @@ import Border from './components/Border';
 function App() {
   return (
     <div className="App">
-      
     <CTA></CTA>
     <Nav></Nav>
     <Hero></Hero>

@@ -4,8 +4,6 @@ import image1 from "../images/homepage-image-1.jpeg";
 import image2 from "../images/homepage-image-2.jpeg";
 
 function Hero() {
-  
-
   return (
     <div className="hero">
       <div className="hero-info">
