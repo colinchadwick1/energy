@@ -3,8 +3,9 @@ import logo from "../images/logo.png"
 function CTA() {
     return (  
         <div className="nav">
-        <div>
+        <div><a href="#">
             <img className="logo" src={logo} alt="logo"/>
+            </a>
         </div>
         <div>
         <nav className="navbar navbar-expand-lg navbar-light bg-white">

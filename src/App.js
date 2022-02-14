@@ -3,6 +3,7 @@ import CTA from './components/CTA';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Icons from './components/Icons';
+import Border from './components/Border';
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Nav></Nav>
     <Hero></Hero>
     <Icons></Icons>
+    <Border></Border>
     </div>
   );
 }

@@ -10,7 +10,7 @@ function CTA() {
         </div>
             <button className="touch" href="#">
             <img className="cta-icon" src={phone} alt=""/>
-            GET IN TOUCH
+            <span className="touch-text">GET IN TOUCH</span>
             </button>
         </div>
 
